@@ -5,7 +5,6 @@ var _ = require('lodash');
 
 var request = Promise.promisify(require('request'));
 
-
 setInterval(checkZoneIp, 30000);
 
 function checkZoneIp() {
@@ -16,7 +15,6 @@ function checkZoneIp() {
     }
   });
 }
-
 
 function getZone() {
   var options = {
