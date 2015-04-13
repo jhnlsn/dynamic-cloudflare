@@ -1,0 +1,28 @@
+{
+  "name": "dynamic-cloudflare",
+  "version": "1.0.0",
+  "description": "Dynamic DNS update script for cloudflare",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnymonster/dynamic-cloudflare.git"
+  },
+  "keywords": [
+    "cloudflare"
+  ],
+  "author": "johnymonster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnymonster/dynamic-cloudflare/issues"
+  },
+  "homepage": "https://github.com/johnymonster/dynamic-cloudflare",
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "config": "^1.12.0",
+    "lodash": "^3.6.0",
+    "request": "^2.55.0"
+  }
+}
