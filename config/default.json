@@ -1,0 +1,9 @@
+{
+  "zone_name":"CHANGEME",
+  "a_rec":"CHANGEME",
+  "api": {
+    "url":"https://www.cloudflare.com/api_json.html",
+    "key":"CHANGEME",
+    "email":"CHANGEME"
+  }
+}
